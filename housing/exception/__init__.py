@@ -9,7 +9,8 @@ class HousingException(Exception):
     def __init__(self, error_message:Exception, error_details:sys):
         #passing the error message to Exception class
         super().__init__(error_message)
-        self.error_message = error_message
+        self.error_message = HousingException.get_detail_error_message(self, error_message=error_message,
+                                                                        error_details=error_details)
 
 
     #using this we can call this function without creating any object
@@ -32,5 +33,11 @@ class HousingException(Exception):
         return error_message
 
 
+    # if do you want to print object of ant class as print statement, 
+    # use Dunder method to print it as a function
     def __str__(self):
         return self.error_message
+
+
+    def __repr__(self):
+        return HousingException.__name__.str()

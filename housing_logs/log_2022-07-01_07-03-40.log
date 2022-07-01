@@ -1,0 +1,7 @@
+[2022-07-01 07:03:40,985] werkzeug - WARNING -  * Debugger is active!
+[2022-07-01 07:03:40,991] werkzeug - INFO -  * Debugger PIN: 100-060-206
+[2022-07-01 07:03:41,009] werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2022-07-01 07:03:46,358] root - INFO - Error occured in script: [C:\Users\acer\Desktop\ML project\MLproject\app.py] at line number: [14] error message: [We are testing custom exception]
+[2022-07-01 07:03:46,358] root - INFO - we are testing logging module
+[2022-07-01 07:03:46,358] werkzeug - INFO - 127.0.0.1 - - [01/Jul/2022 07:03:46] "[37mGET / HTTP/1.1[0m" 200 -
+[2022-07-01 07:03:46,646] werkzeug - INFO - 127.0.0.1 - - [01/Jul/2022 07:03:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
