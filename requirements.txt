@@ -4,14 +4,7 @@ gunicorn
 sklearn
 pandas
 PyYAML
-
-
-
-    # -e .
-
-    # using setup.py file we create housing predictor as a library,
-    # if we run requirement file without -e , it will install only what inside this file.
-    # if we use -e . it will install all of libraries including housing library(custom library)
-
-
-    # anyhow if you create __init__.py file inside of a folder, that will be a library
+evidently
+dill
+matplotlib
+-e .
